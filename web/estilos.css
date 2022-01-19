@@ -1,0 +1,115 @@
+.cuerpo{  
+    background-image: url('https://fondosmil.com/fondo/56867.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #24304F;
+    font-family: sans-serif;
+    color:white;    
+}
+.formulario{
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(120,119,123,0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px,1px,22px, 4px rgba(0,0,0,0.85);
+}
+#btnRegistrar{
+    margin-top: 20px;
+    padding-top: 10px;
+}
+#btnModificarCliente{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.cuerpoLogin{
+    background-image: url('https://fondosmil.com/fondo/56873.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.formLogin{
+    background: rgba(0,0,0,.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0,0,30px rgba(0,0,0,0.568);
+    transition: 0.8s ease-in;
+}
+.form-control{
+    background-color: #114272a8;
+    border-style: none;
+    transition: 0.2s ease-in;
+    box-shadow: none;
+    outline: none;
+}
+.form-control::placeholder{
+    color: white;        
+}
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+.iniciar{
+    background: #222A3F;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700 !important;
+}
+
+.iniciar:hover{
+    color: #F9FFE8;
+    background-color: #0D111C;
+}
+btnRegistrarReceta{
+    margin-top: 20px;
+
+}
+
+#btnConfirmarTransaccion{
+
+    margin-top: 100px;
+    margin-left: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding: 20px 10px 20px 10px; 
+    
+}
+#btnRegistrarDetalleReceta{
+    margin-top: 50px;
+}
+
+#btnReporteUno{
+    margin-top: 20px;
+}
+
+.btnReporte{
+    margin-top: 20px;
+}
+
+.pocoStock{
+    color:orange;
+}
+.sinStock{
+    color:red;
+}
+ 
+.form-control:disabled, .form-control[readonly] {
+    background-color: #114272a8;
+    opacity: 1;
+}
+.mensaje {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    background-color: inherit;
+}

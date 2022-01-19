@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inicio de Sesion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" >
+
+        <link rel="stylesheet" href="estilos.css"/>
+
+    </head>
+    <body class="cuerpoLogin">
+        <div class="container">
+
+            <label style="margin-top: 20px"> Usuario: admin Clave: 123456 </label>
+            <div class="row justify-content-center pt-5 mt-5 m-1">
+                <div class="col-md-6 col-sm-8 col-xl-4 col-lg-5 formLogin">
+                    <form action="/Farmaceutica/Login" method="POST">
+                        <div class="form-group text-center pt-3">
+                            <h2 class="display-5">Iniciar Sesión</h2>
+                        </div>
+                        <div class="form-group mx-sm-4 pt-3">
+                            <label>Usuario</label>
+                            <input type="text"  name="txtUsuario" placeholder="Ingrese usuario" id="idUsuario" value=""  class="form-control text-light text-center" />
+                        </div>
+                        <div class="form-group mx-sm-4 pb-3">
+                            <label>Contraseña</label>
+                            <input type="password"  name="txtClave" placeholder="Ingrese contraseña" id="idContraseña" value=""  class="form-control text-light text-center" />
+                        </div>
+                        <div class="form-group mx-sm-4 pb-2">
+                            <input type="submit" class="btn btn-block iniciar" value="Iniciar sesion" id="btnIniciar" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <label> Legajo: 111801 Nombre Completo: Lopez Dante</label>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" ></script>        
+    </body>
+</html>
